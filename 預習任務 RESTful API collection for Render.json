@@ -1,0 +1,147 @@
+{
+  "info": {
+    "_postman_id": "4a01e84f-5c4f-444d-9913-e27230e81a4f",
+    "name": "預習任務 RESTful API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "7139488"
+  },
+  "item": [
+    {
+      "name": "取得所有代辦事項",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "127.0.0.1:3005/todos",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "新增一筆代辦事項",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "127.0.0.1:3005/todos",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "編輯指定代辦事項",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "127.0.0.1:3005/todos/ad1df174-fc73-47ff-a36f-767dee43b701",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos",
+            "ad1df174-fc73-47ff-a36f-767dee43b701"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "刪除所有代辦事項",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "127.0.0.1:3005/todos",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "刪除一筆指定代辦事項",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "127.0.0.1:3005/todos/ed4acf9b-4d85-44b5-9f14-457051305e99",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos",
+            "ed4acf9b-4d85-44b5-9f14-457051305e99"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "OPTIONS 請求測試",
+      "request": {
+        "method": "OPTIONS",
+        "header": [],
+        "url": {
+          "raw": "127.0.0.1:3005/todos",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3005",
+          "path": [
+            "todos"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
